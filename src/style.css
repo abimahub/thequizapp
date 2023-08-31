@@ -1,3 +1,19 @@
+/* Responsiveness (change screen pixel sizes to suit)
+
+@media (400px <= width <= 700px) {
+  //whatever you want to be responsive goes here.
+  //you can wrap all your css instructions with this, if you want.
+}
+//or these individual commands work similarly, if you need to change
+something specific on only one size.
+
+@media screen and (min-width: 620px) {
+  //whatever you want to be responsive goes here.
+}
+@media screen and (min-width: 450px) {
+  //whatever you want to be responsive goes here.
+} */
+
 * {
   margin: 0;
   padding: 0;

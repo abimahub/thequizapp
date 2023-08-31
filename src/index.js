@@ -44,7 +44,7 @@ function setDarkTheme() {
   mode = 'light'; // Update the mode variable
 }
 
-//  >> Function to set the dark theme
+//  >> Function to set the light theme  //edited comment only AMA
 function setLightTheme() {
   document.documentElement.classList.remove("dark-mode");
   modesToggle.innerHTML = '<i class="fa-solid fa-toggle-on"></i>';
